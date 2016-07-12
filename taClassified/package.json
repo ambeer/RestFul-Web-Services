@@ -1,0 +1,26 @@
+{
+  "name": "techaspect_classifieds",
+  "version": "1.0.0",
+  "description": "It is used for display internal classifieds",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gopal Rao",
+  "license": "ISC",
+  "dependencies": {
+    "MD5": "~1.2.1",
+    "body-parser": "~1.12.4",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "~4.12.2",
+    "mysql": "~2.5.5",
+    "node-base64-image": "~0.1.2",
+    "cors": "~2.7.1",
+    "formidable": "~1.0.17",
+    "multer": "~1.1.0",
+    "session-file-store": "~0.2.0",
+    "connect-mongostore": "~0.1.4",
+    "cookie-session": "~2.0.0-alpha.1"
+  }
+}

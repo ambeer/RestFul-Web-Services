@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<% include partials/page/head.ejs %>
+</head>
+<body class="<%= classname %>">		
+	 <div class="container">
+	 	<h1> Welcome to My App </h1>
+		
+		<% include partials/page/header.ejs %> 
+
+		<form method="post" action="/index/submitAdd" enctype="multipart/form-data">
+
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th> </th>
+              <th> </th>                    
+          </tr>
+        </thead>
+        <tbody>       
+            <tr>
+              <td>Classified ID:</td>
+              <td><input type="text" name="classifiedID"/></td>       
+          </tr>
+          <tr>
+              <td>  Classified Name:  </td>
+              <td> <input type="text" name="ClassifiedName"/></td>
+          </tr>
+          <tr>
+                <td> Browse Image:  </td>
+                <td><input type="file" name="imagePath"/></td>
+          </tr>
+          <tr>
+                <td>  Description:  </td>
+                <td> <textarea rows="4" cols="50" name="classified_desc"> </textarea>  </td>
+          </tr>
+          <tr>
+                <td>  User id:  </td>
+              <td> <input type="text" name="userid"/> </td>
+          </tr> 
+            <tr>
+                <td> </td>
+                <td> <input type="submit" value="Submit"> </td>
+            </tr>
+               
+        </tbody>
+        </table>    	 
+			
+		</form>
+	</div>
+	<% include partials/page/footer.ejs %>
+	<% include partials/page/jsdefaults.ejs %>   	
+</body>  		
+</html>
+
+ 

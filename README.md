@@ -1,6 +1,6 @@
 # Project Name
 
-Developed Restful web services for classified application (Internal tool).  These services handle both GET and POST requests.  Also it allows user to upload files. 
+Developed Restful web services using Node JS, Express and MySQL.  These services handle both GET and POST requests.  Also it allows user to upload files. 
 
 ## Installation
 
@@ -9,7 +9,7 @@ Run npm install to install all dependencies <br/>
 Note: You should have Node JS installed in your computer
 
 ## Usage
-Import mySQl dump file to your database <br/>
+Import mySQl (database.sql) dump file to your database <br/>
 To start the server use - > npm start <br/>
 Open browser : 
 http://localhost:3000/taClassified/fetchAdds  - To get All Ads </br>

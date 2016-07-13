@@ -11,7 +11,7 @@ Note: You should have Node JS installed in your computer
 ## Usage
 Import mySQl (database.sql) dump file to your database <br/>
 To start the server use - > npm start <br/>
-Open browser : 
+User below Restful services :  <br/>
 http://localhost:3000/taClassified/fetchAdds  - To get All Ads </br>
 http://localhost:3000/taClassified/fetchAdds/{id} - To get Individual Ads <br/>
 http://localhost:3000/taClassified/navigation - Check user is logged in or not <br/>
